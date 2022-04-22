@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="icon" href="./assets/imgs/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <title>The Band</title>
+</head>
+<body>
+    <div id="main">
+        <div class="nav">
+            <div class="nav__list">
+                <a href="#" class="nav__item">home</a>
+                <a href="#band" class="nav__item">band</a>
+                <a href="#tour" class="nav__item">tour</a>
+                <a href="#contact" class="nav__item">contact</a>
+                <div class="nav__item">
+                    more
+                    <i class="fa-solid fa-sort-down trans__y--up30"></i>
+                    <div class="subnav">
+                        <a href="#" class="subnav__item">Merchandise</a>
+                        <a href="#" class="subnav__item">Extras</a>
+                        <a href="#" class="subnav__item">Media</a>
+                    </div>
+                </div>
+            </div>
+            <div class="nav__icon">
+                <div class="nav__search">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+                <label for="sidebar__checkbox" class="nav__menu">
+                    <i class="fa-solid fa-bars"></i>
+                </label>
+            </div>
+        </div>
+        <div class="slider">
+            <div class="slider__img" style="background: url(./assets/imgs/slider1.jpg) center top/ cover no-repeat;"></div>
+            <div class="slider__img" style="background: url(./assets/imgs/slider2.jpg) center top/ cover no-repeat;"></div>
+            <div class="slider__img" style="background: url(./assets/imgs/slider3.jpg) center top/ cover no-repeat;"></div>
+            <div class="slider__img" style="background: url(./assets/imgs/slider4.jpg) center top/ cover no-repeat;"></div>
+            <div class="slider__img" style="background: url(./assets/imgs/slider5.jpg) center top/ cover no-repeat;"></div>
+        </div>
+        <div class="content">
+            <div class="container" id="band">
+                <div class="block-content">
+                    <header class="block-content__header mg-tb-10px">The Band</header>
+                    <h3 class="block-content__subheader">We love music</h3>
+                    <p class="block-content__text">We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <div class="member-list pad-tb-32px">
+                        <div class="member-item pad-top-15px">
+                            <div class="member-item__name">
+                                Name
+                            </div>
+                            <img src="./assets/imgs/bandmember.jpg" alt="" class="member-item__img">
+                        </div>
+                        
+                        <div class="member-item pad-top-15px">
+                            <div class="member-item__name">
+                                Name
+                            </div>
+                            <img src="./assets/imgs/bandmember.jpg" alt="" class="member-item__img">
+                        </div>
+
+                        <div class="member-item pad-top-15px">
+                            <div class="member-item__name">
+                                Name
+                            </div>
+                            <img src="./assets/imgs/bandmember.jpg" alt="" class="member-item__img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container container--black" id="tour">
+                <div class="block-content">
+                    <header class="block-content__header mg-tb-10px">tour dates</header>
+                    <h3 class="block-content__subheader">Remember to book your tickets!</h3>
+                    <ul class="row-table pad-tb-32px">
+                        <li class="row-table__item">
+                            September <span class="status status--soldout">Sold out</span>
+                        </li>
+                        <li class="row-table__item">
+                            October  <span class="status status--soldout">Sold out</span>
+                        </li>
+                        <li class="row-table__item">
+                            September <span class="status status--valid">3</span>
+                        </li>
+                    </ul>
+                    <div class="card-list">
+                        <div class="card">
+                            <div class="card__img">
+                                <img src="./assets/imgs/newyork.jpg" alt="" style="width: 100%;">
+                            </div>
+                            <div class="block-content block-content--size-s color-black bg-white flex-grow-1">
+                                <header class="block-content__header color-black  text-align-left">New York</header>
+                                <h3 class="block-content__subheader  text-align-left">Fri 27 Nov 2016</h3>
+                                <p class="block-content__text">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                                <label for="modal__checkbox" class="btn">
+                                    Buy Tickets
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card__img">
+                                <img src="./assets/imgs/paris.jpg" alt="" style="width: 100%;">
+                            </div>
+                            <div class="block-content block-content--size-s color-black bg-white flex-grow-1">
+                                <header class="block-content__header color-black  text-align-left">Paris</header>
+                                <h3 class="block-content__subheader  text-align-left">Sat 28 Nov 2016</h3>
+                                <p class="block-content__text">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                                <label for="modal__checkbox" class="btn">
+                                    Buy Tickets
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card__img">
+                                <img src="./assets/imgs/sanfran.jpg" alt="" style="width: 100%;">
+                            </div>
+                            <div class="block-content block-content--size-s color-black bg-white flex-grow-1">
+                                <header class="block-content__header color-black  text-align-left">San Francisco</header>
+                                <h3 class="block-content__subheader  text-align-left">Sun 29 Nov 2016</h3>
+                                <p class="block-content__text">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                                <label for="modal__checkbox" class="btn">
+                                    Buy Tickets
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container" id="contact">
+                <div class="block-content">
+                <header class="block-content__header mg-tb-10px">contact</header>
+                <h3 class="block-content__subheader">Fan? Drop a note!</h3>
+                <div class="contact pad-tb-32px">
+                    <div class="contact-info flex-1">
+                        <p class="contact__info"><span><i class="fa-solid fa-location-dot"></i></span>Chicago, US</p>
+                        <p class="contact__info"><span><i class="fa-solid fa-phone"></i></span><a href="tel:+00 151515">Phone: +00 151515</a></p>
+                        <p class="contact__info"><span><i class="fa-solid fa-envelope"></i></span><a href="mailto:mail@mail.com">Email: mail@mail.com</a></p>
+                    </div>
+                    <form class="contact-box flex-1">
+                        <div class="list-input">
+                            <input class="input" type="text" required placeholder="Name">
+                            <input class="input" type="email" required placeholder="Email">
+                        </div>
+                        <input class="input" type="text"  required placeholder="Message">
+                        <button type="submit" class="btn">Send</button>
+                    </form>
+                </div>
+            </div>
+            <div class="map">
+                <img src="./assets/imgs/map.jpg" alt="">
+            </div>
+            </div>
+        </div>
+        <div class="footer block-content text-align-center opac-06">
+            <div class="list-icon">
+                <a href="#"><i class="fa-brands fa-facebook-square color-black"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram-square color-black"></i></a>
+                <a href="#"><i class="fa-brands fa-snapchat-square color-black"></i></a>
+                <a href="#"><i class="fa-brands fa-pinterest-square color-black"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter-square color-black"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin color-black"></i></a>               </div>
+            <p class="copyright">Powered by <a href="#">w3.css</a></p>
+        </div>
+    </div>
+    <input type="checkbox" name="modal__checkbox" id="modal__checkbox" hidden>
+    <label for="modal__checkbox" class="modal-container">
+    </label>
+    <div class="modal">
+        <div class="modal__header pad-tb-32px pad-lr-16px">
+            <div class="modal__icon">
+                <i class="fa-solid fa-cart-arrow-down"></i>
+            </div>
+            Tickets
+            <label for="modal__checkbox" class="modal__close nav__icon">
+                <i class="fa-solid fa-x"></i>
+            </label>
+        </div>
+        <form class="modal__content">
+            <label for="toast__checkbox" class="pad-tb-16px"> <span><i class="fa-solid fa-cart-shopping"></i></span>Tickets, $15 per person</label>
+            <input type="text" name="quantity" id="quantity" class="input width-full" placeholder="How many?">
+            <label for="gift-friend" class="pad-tb-16px"> <span><i class="fa-solid fa-user"></i></span>Send to</label>
+            <input type="text" name="gift-friend" id="gift-friend" class="input width-full" placeholder="How many?">
+            <button type="submit" class="btn mg-tb-10px modal__btn ">Pay <i class="fa-solid fa-check"></i></button>
+            <p class="block pad-tb-32px text-align-right">Need <a href="#" class="link--color-blue">help</a></p>
+        </form>
+
+
+    </div>
+    <!-- toast menu-->
+    <input type="checkbox"  name="toast__checkbox" id="toast__checkbox" hidden>
+    <div class="toast toast--success">
+        <div class="toast__icon">
+            <i class="fa-solid fa-circle-check"></i>
+        </div>
+        <div class="toast__message">
+            <header>Success</header>
+            <p>Your request confirmed, have good day<i class="fa-solid fa-face-smile-wink icon--p"></i></p>
+        </div>
+        <label for="toast__checkbox" class="toast__close">
+            <i class="fa-solid fa-xmark"></i>
+        </label>
+    </div>
+    <!-- side bar -->
+    <input type="checkbox" name="sidebar__checkbox" hidden id="sidebar__checkbox">
+    <div class="sidebar">
+        <div class="sidebar__icon">
+            <i class="fa-solid fa-crown"></i>
+        </div>
+        <label for="sidebar__checkbox" class="sidebar__close">
+            <i class="fa-solid fa-caret-left"></i>
+        </label>
+        <div class="sidebar__list">
+            <a href="#" class="sidebar__item"><i class="fa-solid fa-house"></i>Home</a>
+            <a href="#band" class="sidebar__item"><i class="fa-solid fa-compact-disc"></i>Band</a>
+            <a href="#tour" class="sidebar__item"><i class="fa-solid fa-map-location"></i>Tour</a>
+            <a href="#contact" class="sidebar__item"><i class="fa-solid fa-comment-sms"></i>Contact</a>
+            <div class="sidebar__item"><i class="fa-solid fa-circle-chevron-right icon--first"></i><i class="fa-solid fa-circle-chevron-down icon--sec"></i>More
+                <div class="sub-sidebar">
+                    <a href="#" class="sidebar__item">Merchandise</a>
+                    <a href="#" class="sidebar__item">Extras</a>
+                    <a href="#" class="sidebar__item">Media</a>
+                </div>
+            </div>
+        </div>
+        <!-- switch -->
+        <div class="sidebar__footer">
+            <label for="switch">
+                <input type="checkbox" hidden  id="switch">
+                <div class="switch__fill">
+                </div>
+            </label>
+        </div>
+    </div>
+</body>
+</html>
+<script src="./assets/js/scrip.js"></script>

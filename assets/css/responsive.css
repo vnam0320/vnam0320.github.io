@@ -1,0 +1,35 @@
+/* smartphone */
+@media screen and (max-width: 46.1875em){
+    .member-list{
+        flex-direction: column;
+    }
+    .card-list{
+        flex-direction: column;
+    }
+    .card{
+        max-width: 100%;
+        margin-bottom: 16px;
+    }
+    .contact{
+        flex-direction: column;
+    }
+    .list-input{
+        grid-template-columns: none;
+    }
+    .contact-info{
+        margin-bottom: 16px;
+    }
+    .nav__menu{
+        display: block;
+    }
+    .nav__list
+    {
+        display: none;
+    }
+    .nav__search{
+        display: none;
+    }
+    .toast{
+        max-width: 100%;
+    }
+}
